@@ -5,11 +5,13 @@
   box-sizing: border-box;
   list-style: none;
 }
+
 body {
   width: 100%;
   background-color: #eaeded;
   box-sizing: border-box;
 }
+
 .first {
   width: 100%;
   height: 70px;
@@ -18,10 +20,119 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
 .first img {
   width: 130px;
   margin: 0 10px;
   padding: 5px 10px;
   border: 1px solid;
   border-radius: 3px;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex span,
+i {
+  color: white;
+}
+
+.logo {
+  flex: 0.18;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.map {
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.map i {
+  margin-top: 17px;
+  padding-left: 5px;
+  font-size: 17px;
+}
+
+.map div {
+  padding: 5px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.map div span:first-child {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.map div span {
+  font-weight: bold;
+}
+
+.right {
+  justify-content: space-between;
+  flex: 0.29;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  background-color: white;
+  flex: 0.53;
+  border-radius: 5px;
+  display: flex;
+  margin: 0 10px;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.input input {
+  outline: none;
+  width: 80%;
+  font-size: 16px;
+  padding: 10px 2px;
+  border: none;
+}
+
+.input .fa-search {
+  color: rgb(51, 51, 51);
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #febd69;
+  border-radius: 0 5px;
+}
+
+.input div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid gray;
+  background-color: rgb(236, 234, 234);
+  padding: 6px 0;
+}
+
+.input div span {
+  border-radius: 5px 0 0 5px;
+  color: rgb(51, 51, 51);
+  padding: 6px 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.input .fa-carent-down {
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  padding: 5px;
 }
