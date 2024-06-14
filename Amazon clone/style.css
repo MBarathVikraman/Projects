@@ -303,3 +303,120 @@ i {
 .second-3 span:hover {
   border: 1px solid white;
 }
+.sec-1 {
+  position: relative;
+  width: 100%;
+  height: 1190px;
+  box-sizing: border-box;
+}
+.slide img {
+  width: 1480px;
+  height: 100%;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 596px;
+}
+.img-box {
+  display: flex;
+  position: absolute;
+  animation: carousel 15s alternate infinite;
+}
+@keyframes carousel {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0%;
+  }
+  24% {
+    left: -1480px;
+  }
+  50% {
+    left: -1480px;
+  }
+  54% {
+    left: -2960px;
+  }
+  80% {
+    left: -2960px;
+  }
+  84% {
+    left: -4440px;
+  }
+  100% {
+    left: -4440px;
+  }
+}
+.container-1 {
+  position: absolute;
+  z-index: 1;
+  top: 230px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, transparent, #eaeded 30%);
+}
+.container-1 .para {
+  background-color: rgb(238, 234, 234);
+  width: 100%;
+  text-align: center;
+}
+.container-1 div:first-child {
+  font-size: 14px;
+  padding: 12px 0;
+}
+.product-comp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  margin: 20px 0;
+  justify-content: space-around;
+}
+.product-comp .box {
+  width: 315px;
+  height: 400px;
+  background-color: white;
+}
+.box h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(43, 42, 42);
+}
+.box a {
+  font-size: 13px;
+  margin-left: 20px;
+  display: block;
+  padding-top: 30px;
+}
+.box-a {
+  overflow: hidden;
+  background-color: white;
+}
+.box div img {
+  width: 167px;
+  height: 120px;
+  cursor: pointer;
+  margin-left: -20px;
+}
+.box-a div {
+  display: inline-block;
+}
+.box-a div span {
+  display: block;
+  font-size: 13px;
+  margin-left: 20px;
+}
