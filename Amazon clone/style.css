@@ -526,3 +526,15 @@ i {
   left: 13%;
   right: 13%;
 }
+.box-d a {
+  padding-top: 10px;
+}
+.box-d div img {
+  width: 147px;
+  height: 110px;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+.box-d div span {
+  margin-bottom: 22px;
+}
