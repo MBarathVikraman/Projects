@@ -1,3 +1,5 @@
+(outdated)
+'''
 from pytube import YouTube
 import tkinter as tk
 from tkinter import filedialog
@@ -30,3 +32,4 @@ if __name__=="__main__":
         download_video(video_url,path_name)
     else:
         print("Invalid Save Location")
+'''
