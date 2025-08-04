@@ -1,4 +1,0 @@
-import openai
-
-openai.key="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"
-
